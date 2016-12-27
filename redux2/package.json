@@ -1,0 +1,48 @@
+{
+  "name": "redux",
+  "version": "1.0.0",
+  "description": "redux开发环境搭建",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js & nodemon --harmony index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "less-loader": "^2.2.3",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-devtools": "^3.3.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.13.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "koa": "^1.2.4",
+    "koa-handlebars": "^1.0.0",
+    "koa-router": "^5.4.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuqiuchen/myRedux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liuqiuchen/myRedux/issues"
+  },
+  "homepage": "https://github.com/liuqiuchen/myRedux#readme"
+}
